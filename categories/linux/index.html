@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+<title>分类: linux - 岁月如歌</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <meta name="description" content="一些笔记记录和随想">
+<meta property="og:type" content="website">
+<meta property="og:title" content="岁月如歌">
+<meta property="og:url" content="http://yoursite.com/categories/linux/index.html">
+<meta property="og:site_name" content="岁月如歌">
+<meta property="og:description" content="一些笔记记录和随想">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="岁月如歌">
+<meta name="twitter:description" content="一些笔记记录和随想">
+
+
+
+
+
+<link rel="icon" href="/images/favicon.svg">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+
+
+    
+    
+    
+    <style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+    
+
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+    
+
+    
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+
+    
+    
+    
+    
+
+<link rel="stylesheet" href="/css/back-to-top.css">
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+<link rel="stylesheet" href="/css/progressbar.css">
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+
+    
+    
+    
+
+    
+
+
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="is-3-column">
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/">
+            
+                <img src="/images/logo.svg" alt="岁月如歌" height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start">
+                
+                <a class="navbar-item" href="/">Home</a>
+                
+                <a class="navbar-item" href="/archives">Archives</a>
+                
+                <a class="navbar-item" href="/categories">Categories</a>
+                
+                <a class="navbar-item" href="/tags">Tags</a>
+                
+                <a class="navbar-item" href="/about">About</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                    
+                    
+                    <a class="navbar-item" target="_blank" title="Download on GitHub" href="http://github.com/heqi08">
+                        
+                        <i class="fab fa-github"></i>
+                        
+                    </a>
+                    
+                
+                
+                
+                <a class="navbar-item search" title="搜索" href="javascript:;">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
+    <div class="card-content">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul>
+            <li><a href="/categories">分类</a></li>
+            
+            <li class="is-active"><a href="#" aria-current="page">linux</a></li>
+        </ul>
+        </nav>
+    </div>
+</div>
+
+    <div class="card">
+    
+    <div class="card-image">
+        <a href="/2019/01/24/linux/" class="image is-7by1">
+            <img class="thumbnail" src="http://s4.51cto.com/wyfs02/M00/97/6E/wKioL1kuYXvRIohkAADcv3puLCs661.jpg-wh_651x-s_1403551189.jpg" alt="linux">
+        </a>
+    </div>
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-01-24T02:26:29.000Z">2019-01-24</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/linux/">linux</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    21 分钟 读完 (大约 3215 个字)
+                </span>
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2019/01/24/linux/">linux</a>
+            
+        </h1>
+        <div class="content">
+            <p><strong>mkdir [-mp]目录名称</strong><br>选项与参数：<br>-m ：设定档案的权限喔！直接设定，不需要看预设权限(umask)的脸色～<br>-p ：帮助你直接将所需要的目录(包含上层目录)递回建立起来！</p>
+<p><strong>[root@study ~]# pwd [-P]</strong><br>选项与参数：<br>-P ：显示出确实的路径，而非使用连结(link)路径。</p>
+<p><strong>[root@study ~]# rmdir [-p]目录名称</strong><br>选项与参数：<br>-p ：连同『上层』『空的』目录也一起删除</p>
+<p><strong>[root@study ~]# ls [-aAdfFhilnrRSt]档名或目录名称..<br>[root@study ~]# ls [–color={never,auto,always}]档名或目录名称..<br>[root@ study ~]# ls [–full-time]档名或目录名称.. </strong><br>选项与参数：<br> -a ：全部的档案，连同隐藏档(开头为.的档案)一起列出来(常用)<br>-A ：全部的档案，连同隐藏档，但不包括.与..这两个目录-d ：仅列出目录本身，而不是列出目录内的档案资料(常用)<br>-f ：直接列出结果，而不进行排序(ls预设会以档名排序！)<br>-F ：根据档案、目录等资讯，给予附加资料结构，例如：<br>      *:代表可执行档； /:代表目录； =:代表socket档案； |:代表FIFO档案；<br>-h ：将档案容量以人类较易读的方式(例如GB, KB等等)列出来；<br>-i ：列出inode号码，inode的意义下一章将会介绍；-l ：长资料串列出，包含档案的属性与权限等等资料；(常用)<br>-n ：列出UID与GID而非使用者与群组的名称(UID与GID会在帐 管理提到！)<br>-r ：将排序结果反向输出，例如：原本档名由小到大，反向则为由大到小；<br>-R ：连同子目录内容一起列出来，等于该目录下的所有档案都会显示出来；<br>-l : 长串显示资料内容；</p>
+<p>-S ：以档案容量大小排序，而不是用档名排序；<br>-t ：依时间排序，而不是用档名。<br>–color=never ：不要依据档案特性给予颜色显示；<br>–color=always ：显示颜色<br>–color=auto ：让系统自行依据设定来判断是否给予颜色<br>–full-time ：以完整时间模式(包含年、月、日、时、分)输出<br>–time={atime,ctime} ：输出access时间或改变权限属性时间(ctime)<br>                       而非内容变更时间(modification time)</p>
+<p><strong>[root@study ~]# cp [-adfilprsu]来源档(source)目标档(destination)<br>[root@study ~]# cp [options] source1 source2 source3 …. directory </strong><br>选项与参数<br>-a：此选项通常在复制目录时使用，它保留链接、文件属性，并复制目录下的所有内容。其作用等于dpR参数组合。<br>-d：复制时保留链接。这里所说的链接相当于Windows系统中的快捷方式。<br>-f：覆盖已经存在的目标文件而不给出提示。<br>-i：与-f选项相反，在覆盖目标文件之前给出提示，要求用户确认是否覆盖，回答”y”时目标文件将被覆盖。<br>-p：除复制文件的内容外，还把修改时间和访问权限也复制到新文件中。<br>-r：若给出的源文件是一个目录文件，此时将复制该目录下所有的子目录和文件。<br>-l：不复制文件，只是生成链接文件。</p>
+<p>最后需要注意的，如果来源档有两个以上，则最后一个目的档一定要是『目录』才行！</p>
+<p><strong>[root@study ~]# rm [-fir]档案或目录</strong><br>选项与参数：<br>-f ：就是force的意思，忽略不存在的档案，不会出现警告讯息；<br>-i ：互动模式，在删除前会询问使用者是否动作<br>-r ：递回删除啊！最常用在目录的删除了！这是非常危险的选项！！！</p>
+<p><strong>[root@study ~]# mv [-fiu] source destination<br>[root@study ~]# mv [options] source1 source2 source3 …. directory </strong><br>选项与参数：<br>-f ：force强制的意思，如果目标档案已经存在，不会询问而直接覆盖；<br>-i ：若目标档案(destination)已经存在时，就会询问是否覆盖！<br>-u ：若目标档案已经存在，且source比较新，才会更新(update) </p>
+<p><strong>[root@study ~]# cat [-AbEnTv] </strong><br>选项与参数：<br>-A ：相当于-vET的整合选项，可列出一些特殊字符而不是空白而已；<br>-b ：列出行号，仅针对非空白行做行号显示，空白行不标行号！<br>-E ：将结尾的断行字元$显示出来；-n ：列印出行号，连同空白行也会有行号，与-b的选项不同；<br>-T ：将[tab]按键以^I显示出来；<br>-v ：列出一些看不出来的特殊字符</p>
+<p><strong>[root@study ~]# nl [-bnw]档案</strong><br>选项与参数：<br>-b ：指定行号指定的方式，主要有两种：<br>      -ba ：表示不论是否为空行，也同样列出行号(类似cat -n)；<br>      -bt ：如果有空行，空的那一行不要列出行号(预设值)；<br>-n ：列出行号表示的方法，主要有三种：<br>      -n ln ：行号在萤幕的最左方显示；<br>      -n rn ：行号在自己栏位的最右方显示，且不加0 ；<br>      -n rz ：行号在自己栏位的最右方显示，且加0 ；<br>-w ：行号栏位的占用的字元数。</p>
+<p><strong>root@study ~]# touch [-acdmt]档案</strong><br>选项与参数：<br>-a ：仅修订access time；<br>-c ：仅修改档案的时间，若该档案不存在则不建立新档案；<br>-d ：后面可以接欲修订的日期而不用目前的日期，也可以使用–date=”日期或时间”<br>-m ：仅修改mtime ；<br>-t ：后面可以接欲修订的时间而不用目前的时间，格式为[YYYYMMDDhhmm ] </p>
+<p>#在2014/06/10建立的内容(mtime) </p>
+<p>#在2015/06/15读取过内容(atime) </p>
+<p>#在2015/05/04更新过状态(ctime)</p>
+<p><strong>[root@study ~]# whereis [-bmsu]档案或目录名</strong><br>选项与参数：<br>-l :可以列出whereis会去查询的几个主要目录而已<br>-b :只找binary格式的档案<br>-m :只找在说明档manual路径下的档案<br>-s :只找source来源档案<br>-u :搜寻不在上述三个项目当中的其他特殊档案</p>
+<p><strong>[root@study ~]# locate [-ir] keyword </strong><br>选项与参数：<br>-i ：忽略大小写的差异；<br>-c ：不输出档名，仅计算找到的档案数量<br>-l ：仅输出几行的意思，例如输出五行则是-l 5<br>-S ：输出locate所使用的资料库档案的相关资讯，包括该资料库纪录的档案/目录数量等<br>-r ：后面可接正规表示法的显示方式</p>
+<p><strong>[root@study ~]# find [PATH] [option] [action] </strong><br>选项与参数：<br>1.与时间有关的选项：共有-atime, -ctime与-mtime ，以-mtime说明<br>   -mtime n ：n为数字，意义为在n天之前的『一天之内』被更动过内容的档案；<br>   -mtime +n ：列出在n天之前(不含n天本身)被更动过内容的档案档名；<br>   -mtime - n ：列出在n天之内(含n天本身)被更动过内容的档案档名。<br>   -newer file ：file为一个存在的档案，列出比file还要新的档案档<br>2.与使用者或群组名称有关的参数：<br>   -uid n ：n为数字，这个数字是使用者的帐号ID，亦即UID ，这个UID是记录在<br>            /etc/passwd里面与帐号名称对应的数字。这方面我们会在第四篇介绍。<br>   -gid n ：n为数字，这个数字是群组名称的ID，亦即GID，这个GID记录在<br>            /etc/group，相关的介绍我们会第四篇说明～<br>   -user name ：name为使用者帐号名称喔！例如dmtsai<br>   -group name：name为群组名称喔，例如users ；<br>   -nouser ：寻找档案的拥有者不存在/etc/passwd的人！<br>   -nogroup ：寻找档案的拥有群组不存在于/etc/group的档案！<br>                当你自行安装软体时，很可能该软体的属性当中并没有档案拥有者，<br>                这是可能的！在这个时候，就可以使用-nouser与-nogroup搜寻。<br>3.与档案权限及名称有关的参数：<br>   -name filename：搜寻档案名称为filename的档案；<br>   -size [+-]SIZE：搜寻比SIZE还要大(+)或小(-)的档案。这个SIZE的规格有：<br>                   c:代表byte， k:代表1024bytes。所以，要找比50KB<br>                   还要大的档案，就是『 -size +50k 』<br>   -type TYPE ：搜寻档案的类型为TYPE的，类型主要有：一般正规档案(f),装置档案(b, c),<br>                   目录(d),连结档(l), socket (s),及FIFO (p)等属性。<br>   -perm mode ：搜寻档案权限『刚好等于』 mode的档案，这个mode为类似chmod<br>                 的属性值，举例来说， -rwsr-xr-x的属性为4755 ！<br>   -perm -mode ：搜寻档案权限『必须要全部囊括mode的权限』的档案，举例来说，<br>                 我们要搜寻-rwxr–r– ，亦即0744的档案，使用-perm -0744，<br>                 当一个档案的权限为-rwsr-xr-x ，亦即4755时，也会被列出来，<br>                 因为-rwsr-xr-x的属性已经囊括了-rwxr–r–的属性了。<br>   -perm /mode ：搜寻档案权限『包含任一mode的权限』的档案，举例来说，我们搜寻<br>                 -rwxr-xr-x ，亦即-perm /755时，但一个档案属性为-rw— —-<br>                 也会被列出来，因为他有-rw….的属性存在！</p>
+<p><strong>[dmtsai@study ~]$ gzip [-cdtv#]档名<br>[dmtsai@study ~]$ zcat档名.gz </strong><br>选项与参数：<br>-c ：将压缩的资料输出到萤幕上，可透过资料流重导向来处理；<br>-d ：解压缩的参数；<br>-t ：可以用来检验一个压缩档的一致性～看看档案有无错误；<br>-v ：可以显示出原档案/压缩档案的压缩比等资讯；<br>-# ：# 为数字的意思，代表压缩等级，-1 最快，但是压缩比最差、-9 最慢，但是压缩比最好！预设是-6</p>
+<p><strong>[dmtsai@study ~]$ bzip2 [-cdkzv#]档名<br>[dmtsai@study ~]$ bzcat档名.bz2 </strong><br>选项与参数：<br>-c ：将压缩的过程产生的资料输出到萤幕上！<br>-d ：解压缩的参数<br>-k ：保留原始档案，而不会删除原始的档案喔！<br>-z ：压缩的参数(预设值，可以不加)<br>-v ：可以显示出原档案/压缩档案的压缩比等资讯；<br>-# ：与gzip 同样的，都是在计算压缩比的参数， -9 最佳， -1 最快！</p>
+<p><strong>[dmtsai@study ~]$ tar [-z|-j|-J] [cv] [-f待建立的新档名] filename…  &lt;==打包与压缩<br>[dmtsai@study ~]$ tar [ -z|-j|-J] [tv] [-f既有的tar档名]              &lt;==察看档名<br>[dmtsai@study ~]$ tar [-z|-j|-J] [xv] [ -f既有的tar档名] [-C目录]    &lt;==解压缩</strong><br>选项与参数：<br>-c ：建立打包档案，可搭配-v 来察看过程中被打包的档名(filename)<br>-t ：察看打包档案的内容含有哪些档名，重点在察看『档名』就是了；<br>-x ：解打包或解压缩的功能，可以搭配-C (大写) 在特定目录解开<br>      特别留意的是， -c, -t, -x 不可同时出现在一串指令列中。<br>-z ：透过gzip 的支援进行压缩/解压缩：此时档名最好为<em>.tar.gz<br>-j ：透过bzip2 的支援进行压缩/解压缩：此时档名最好为</em>.tar.bz2<br>-J ：透过xz 的支援进行压缩/解压缩：此时档名最好为*.tar.xz<br>      特别留意， -z, -j, -J 不可以同时出现在一串指令列中<br>-v ：在压缩/解压缩的过程中，将正在处理的档名显示出来！<br>-f filename：-f 后面要立刻接要被处理的档名！建议-f 单独写一个选项啰！(比较不会忘记)<br>-C 目录：这个选项用在解压缩，若要在特定目录解压缩，可以使用这个选项。</p>
+<p>其他后续练习会使用到的选项介绍：<br>-p(小写) ：保留备份资料的原本权限与属性，常用于备份(-c)重要的设定档<br>-P(大写) ：保留绝对路径，亦即允许备份资料中含有根目录存在之意；<br>–exclude=FILE：在压缩的过程中，不要将FILE 打包！</p>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <nav class="level">
+            <div class="level-item has-text-centered">
+                <div>
+                    <img class="image is-128x128 has-mb-6" src="https://pic4.zhimg.com/v2-2a03eb20456ac5b66f1017fa8e349483_r.jpg" alt="Garvin He">
+                    
+                    <p class="is-size-4 is-block">
+                        Garvin He
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-block">
+                        Software Quality Assurance
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-flex is-flex-center has-text-grey">
+                        <i class="fas fa-map-marker-alt has-mr-7"></i>
+                        <span>Chengdu</span>
+                    </p>
+                    
+                </div>
+            </div>
+        </nav>
+        <nav class="level is-mobile">
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        文章
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        3
+                    </p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        分类
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        3
+                    </p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        标签
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        3
+                    </p>
+                </div>
+            </div>
+        </nav>
+        <div class="level">
+            <a class="level-item button is-link is-rounded" href="http://github.com/heqi08">
+                关注我</a>
+        </div>
+        
+        
+        <div class="level is-mobile">
+            
+            <a class="level-item button is-white is-marginless" target="_blank" title="Github" href="http://github.com/ppoffice">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+    
+        
+    
+        
+
+<div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            链接
+        </h3>
+        <ul class="menu-list">
+        
+            <li>
+                <a class="level is-mobile" href="https://hexo.io" target="_blank">
+                    <span class="level-left">
+                        <span class="level-item">Hexo</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">hexo.io</span>
+                    </span>
+                </a>
+            </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+
+
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                分类
+            </h3>
+            <ul class="menu-list">
+            <li>
+        <a class="level is-marginless" href="/categories/linux/">
+            <span class="level-start">
+                <span class="level-item">linux</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/sql/">
+            <span class="level-start">
+                <span class="level-item">sql</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/数学/">
+            <span class="level-start">
+                <span class="level-item">数学</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            标签云
+        </h3>
+        <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/统计学/" style="font-size: 10px;">统计学</a>
+    </div>
+</div>
+
+    
+    
+        <div class="column-right-shadow is-hidden-widescreen ">
+        
+            
+<div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="/2019/01/24/linux/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="http://s4.51cto.com/wyfs02/M00/97/6E/wKioL1kuYXvRIohkAADcv3puLCs661.jpg-wh_651x-s_1403551189.jpg" alt="linux">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-24T02:26:29.000Z">2019-01-24</time></div>
+                    <a href="/2019/01/24/linux/" class="has-link-black-ter is-size-6">linux</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/linux/">linux</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/01/24/mysql/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail/mysql.jpeg" alt="mysql">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-24T02:21:17.000Z">2019-01-24</time></div>
+                    <a href="/2019/01/24/mysql/" class="has-link-black-ter is-size-6">mysql</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/sql/">sql</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/01/22/hello-world/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail/stastics.jpg" alt="深入浅出统计学">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-22T06:02:32.625Z">2019-01-22</time></div>
+                    <a href="/2019/01/22/hello-world/" class="has-link-black-ter is-size-6">深入浅出统计学</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/数学/">数学</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+
+        
+            <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/01/">
+                <span class="level-start">
+                    <span class="level-item">一月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+        
+            <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                标签
+            </h3>
+            <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/linux/">
+                        <span class="tag">linux</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/mysql/">
+                        <span class="tag">mysql</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/统计学/">
+                        <span class="tag">统计学</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+        
+        </div>
+    
+</div>
+
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="/2019/01/24/linux/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="http://s4.51cto.com/wyfs02/M00/97/6E/wKioL1kuYXvRIohkAADcv3puLCs661.jpg-wh_651x-s_1403551189.jpg" alt="linux">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-24T02:26:29.000Z">2019-01-24</time></div>
+                    <a href="/2019/01/24/linux/" class="has-link-black-ter is-size-6">linux</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/linux/">linux</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/01/24/mysql/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail/mysql.jpeg" alt="mysql">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-24T02:21:17.000Z">2019-01-24</time></div>
+                    <a href="/2019/01/24/mysql/" class="has-link-black-ter is-size-6">mysql</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/sql/">sql</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/01/22/hello-world/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail/stastics.jpg" alt="深入浅出统计学">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-22T06:02:32.625Z">2019-01-22</time></div>
+                    <a href="/2019/01/22/hello-world/" class="has-link-black-ter is-size-6">深入浅出统计学</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/数学/">数学</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/01/">
+                <span class="level-start">
+                    <span class="level-item">一月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                标签
+            </h3>
+            <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/linux/">
+                        <span class="tag">linux</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/mysql/">
+                        <span class="tag">mysql</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/统计学/">
+                        <span class="tag">统计学</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/">
+                
+                    <img src="/images/logo.svg" alt="岁月如歌" height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2019 He Qi&nbsp;
+                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a href="http://github.com/ppoffice/hexo-theme-icarus">Icarus</a>
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Creative Commons" href="https://creativecommons.org/">
+                        
+                        <i class="fab fa-creative-commons"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
+                        
+                        <i class="fab fa-creative-commons-by"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Download on GitHub" href="http://github.com/ppoffice/hexo-theme-icarus">
+                        
+                        <i class="fab fa-github"></i>
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("zh-CN");</script>
+
+
+    
+    
+    
+    <script src="/js/animation.js"></script>
+    
+
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+    <script src="/js/gallery.js" defer></script>
+    
+
+    
+    
+
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        });
+    });
+</script>
+
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    MathJax.Hub.Config({
+        'HTML-CSS': {matchFontHeight: false},
+        SVG: {matchFontHeight: false},
+        CommonHTML: {matchFontHeight: false}
+    });
+});
+</script>
+
+    
+    
+
+<a id="back-to-top" title="回到顶端" href="javascript:;">
+    <i class="fas fa-chevron-up"></i>
+</a>
+<script src="/js/back-to-top.js" defer></script>
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+    <script src="/js/clipboard.js" defer></script>
+    
+
+    
+
+
+<script src="/js/main.js" defer></script>
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="想要查找什么...">
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/js/insight.js" defer></script>
+<link rel="stylesheet" href="/css/search.css">
+<link rel="stylesheet" href="/css/insight.css">
+    
+</body>
+</html>
